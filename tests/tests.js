@@ -2,7 +2,7 @@
 'use strict';
 
 var chai = require('jasmine');
-var expect = chai.expect;
+//var expect = chai.expect;
 
 var myApp = require('../app/library.js');
 
