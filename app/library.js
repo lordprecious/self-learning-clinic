@@ -19,8 +19,9 @@ file.fizzBuzz = function(num) {
 
 file.findMinMax = function(l) {
 
+  //l is the input array
 
-    var output = [];
+  var output = [];
   var same = l[0];
   for(j = 1; j < 2; j++){
     if(l[j] == same){
