@@ -1,0 +1,26 @@
+{
+  "name": "self-learning-clinic",
+  "version": "1.0.0",
+  "description": "self learning clinic",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "jasmine": "^2.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordprecious/self-learning-clinic.git"
+  },
+  "author": "lordprecious",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lordprecious/self-learning-clinic/issues"
+  },
+  "homepage": "https://github.com/lordprecious/self-learning-clinic#readme"
+}
