@@ -23,7 +23,7 @@ file.findMinMax = function(l) {
 
   var output = [];
   var same = l[0];
-  for(j = 1; j < 2; j++){
+  for(var j = 1; j < 2; j++){
     if(l[j] == same){
     output[0] = l[j];
     return output;
@@ -43,7 +43,7 @@ file.findMinMax = function(l) {
 
  function minimum(l){
   var min = l[0];
-  for(i = 1; i <= l.length; i++){
+  for(var i = 1; i <= l.length; i++){
     if(l[i] < min){
       min = l[i];
     }
@@ -53,10 +53,11 @@ file.findMinMax = function(l) {
 
 function maximum(l){
   var max = l[0];
-  for(i = 1; i <= l.length; i++){
+  for(var i = 1; i <= l.length; i++){
     if(l[i] > max){
       max = l[i];
     }
   }
   return max;
 }
+module.exports = file;
